@@ -1,0 +1,53 @@
+#navder .logo {
+    float: none;
+    text-align: center;
+}
+#navder ul ,
+#navder ul li{
+    float: none;
+    text-align: center;
+    border-bottom: #444 dotted 1px;
+}
+#home-imfo .info-ing{
+    display: none;
+}
+#home-imfo .info-content p{
+    font-size: 1.2em;
+    padding: 10px 10px;
+}
+.box{
+    float: none; 
+    width: 100%;
+}
+#block1 .lead1{
+    float: none;
+    width: 100%;
+}
+#block1 .info-left p ,
+#block1 .info-left h1
+{
+    text-align: center;
+    width: 100%;
+
+}
+#block1 .info-right ,
+#block1 .info-left 
+{
+    float: none;
+    width: 100%;
+    
+}
+#block1 .info-right{
+    margin-top: 300px;
+}
+#block2{
+    height:800px; 
+}
+#block2 .pepole1,
+#block2 .pepole2{
+    float: none; 
+    width: 100%;
+}  
+.all .box{
+    border-bottom:#444 dotted 1px ;
+}

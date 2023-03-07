@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;/*מוריד את הקן התחתון */
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+/* home page*/
+#navder{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navder a{
+    color: #fff;  
+}
+#navder h1{
+    float: left;
+    padding-top: 20px;
+    margin: 0 15px;
+}
+#navder ul{
+    list-style: none;
+    float: right;
+}
+#navder ul li{
+    float: left;
+
+}
+#navder ul li a{
+    display: block;
+    padding: 20px; 
+}
+#navder ul li a:hover,
+#navder ul li a.cuurent {
+  background-color: #444; 
+  color: #f7c08a;
+}
+#showcase{
+    background:url('../img/pexels-konstantinos-eleftheriadis-2034335.jpg') no-repeat center center/cover;
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.9em;
+    text-align: center;
+    
+}
+#showcase h1{
+    
+    padding-top: 150px;
+}
+#showcase p{
+    
+    padding: 10px;
+    
+}
+#showcase h1 #titel{
+    
+    color: #f7c08a;
+}
+.btn{
+    display: inline-block;/*עושה רקע מסביב למילה עצמה ולא לכל הבלוק*/
+    background-color: #333;
+    color: #ffe;
+    font-size: 15px;
+    border-radius: 5px;
+    line-height: 15px;
+    padding: 7px 7px;
+}
+#home-imfo{
+    height: 300px;
+}
+
+#home-imfo .info-ing{
+    float: left;
+    width: 50%;
+    background:url('../img/pexels-konstantinos-eleftheriadis-2034335.jpg') no-repeat center center/cover;
+    min-height: 100%;
+} 
+#home-imfo h2 #tital{
+    color: #f7c08a; 
+    
+
+}
+#home-imfo h2 {
+    padding-bottom: 20px;
+}
+#home-imfo .info-content{
+    background-color: #333;
+    min-height: 100%;
+    padding: 90px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    
+    
+}
+#home-imfo .info-content .btn1{
+    background-color: #fff;
+    color: #000;
+    padding-bottom: 5px;
+    margin-top: 5px;
+
+}
+.box p{
+    padding-top: 20px;
+}
+ .box{
+    float: left;
+    width: 33.3%;
+    padding: 30px ;
+    text-align: center;
+    background-color: #333;
+    color: #fff; 
+
+    
+}
+.bg-primary{
+    background-color: #f7c08a;
+    color: #333;
+}
+.bg-light{
+    background-color: #fff;
+    color: #333;
+}
+#main-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+/*about page*/
+#block1{
+    padding: 30px 0px;
+} 
+
+#block1 #titel1{
+    color: #f7c08a;
+    
+}
+#block1 .info-right{
+    float: right; 
+    width: 50%;
+    min-height: 100%;
+}
+#block1 .info-right img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 70%;
+    
+}
+#block1 .info-left h1{
+    padding: 5px 30px;
+}
+#block1 p{
+    float: left;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px;
+    min-height: 100%;
+    
+}
+.clr {
+    clear: both;
+  }
+  
+
+
+#block2{
+    height:600px;
+    background: url('../img/hotel1.jpg') no-repeat center center/cover; 
+    min-height: 100%;
+    padding-top: 40px;
+
+     
+}
+
+.tital2{
+    text-align: center;
+    color: #fff;
+    
+}
+.block2-left{
+    float: left;
+    width: 80%;
+    padding: 55px 45px;
+    min-height: 100%;
+}
+#block2 .pepole1 p,
+#block2 .pepole2 p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8em;
+}
+#block2 .pepole1 img,
+#block2 .pepole2 img{
+    float: left;
+    width: 100px;
+    
+    
+    margin-right: 20px;
+  border-radius: 50%;
+}
+#block2 .pepole1,
+#block2 .pepole2 {
+    float: left;
+    display: block;
+    background-color: #f7c08a;
+    width: 90%;
+    padding: 10px 25px ;
+    opacity: 0.8;
+    margin-bottom: 60px;
+  border-radius: 5px;
+  
+}
+/*page content*/
+.content{
+    padding: 10px 20px;
+    line-height: 1.3em;
+}
+#titalContent{
+    color: #f7c08a;
+}
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lineName #name,
+.lineEmail #Email{
+    width: 80%;
+    height: 25px;
+    
+     
+}
+#btn{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 12px;  
+  margin: 5px 19px;
+  
+}
+
+
+

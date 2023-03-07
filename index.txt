@@ -1,0 +1,63 @@
+
+          index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripion " content="welcome to the most extraordinary hotel in tel aviv">
+    <meta name="keywords" Contact="hotel,tel aviv,isrel,vection">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styel.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Welcome to Hotals HBT</title>
+</head>
+<body>
+    <header >
+        <nav id="navder">
+            <h1 class="logo">HBT</h1>
+            <ul >
+                <li><a class="cuurent" href="index.html">Home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="content.html">content</a></li>
+            </ul>
+        </nav>
+    
+    <div id="showcase">
+        <h1><span id="titel">Enjoy</span> Your Stay</h1>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, dolore.</p>
+        <a class="btn" href="about.html">About Our Hotel</a>
+    </div>
+</header>
+    <section id="home-imfo" class="bg-dark">
+        <div class="info-ing"></div>
+        <div class="info-content" >
+        <h2><spen id="tital">The History</spen> Of Our Hotel</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quia excepturi vitae eius provident optio fuga enim sit non illo harum ullam saepe repudiandae, illum expedita cum nostrum exercitationem libero!</p>
+        <a href="about.html" class="btn1">Read More</a>
+        </div>
+    </section>
+    <section id="features">
+        <div class="box bg-light"> 
+            <i class="fa-solid fa-hotel fa-3x"></i>
+            <h2>Great Location</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, sapiente.</p>
+        </div>
+        <div class="box bg-primary">
+            <i class="fa-solid fa-utensils fa-3x"></i>
+            <h2>Free Meals</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, sapiente.</p>
+        </div>
+        <div class="box bg-light">
+            <i class="fa-solid fa-dumbbell fa-3x"></i>
+            <h2>Fitness Room</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, sapiente.</p>
+        </div>
+    </section>
+    <footer id="main-footer">
+            <p>Hotel BT &copy:2019, All Right Reserve</p>
+    </footer>
+</body>
+</html>

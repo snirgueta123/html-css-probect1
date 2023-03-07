@@ -1,0 +1,69 @@
+
+         countent.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripion " content="welcome to the most extraordinary hotel in tel aviv">
+    <meta name="keywords" Contact="hotel,tel aviv,isrel,vection">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styel.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Welcome to Hotals HBT</title>
+</head>
+<body>
+    <header >
+        <nav id="navder">
+            <h1 class="logo">HBT</h1>
+            <ul >
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">about</a></li>
+                <li><a class="cuurent"  href="content.html">content</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+      <div class="content">
+        <h1><span id="titalContent">Contact</span> Us</h1>
+        <p>please fll out the form below to contant us </p>
+        <form>
+            <div class="lineName">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" ></input><br><br>
+        </div>
+        <div class="lineEmail">
+            <labe for="email">Email</label><br>
+                <input type="text" name="Email" id="Email" ></input><br><br>
+            </div>
+            <div class="lineMeesage"></div>
+            <label for="message">Message</label><br>
+            <textarea name="text" rows="10" cols="133"></textarea><br>
+            </div>
+            <button type="Submit" id="btn">Submit</button>
+
+        </form>
+      </div>  
+    </section>
+    <section>
+        <div class=" all">
+        <div class="box">
+            <i class="fa-solid fa-location-dot fa-3x"></i>
+            <p>50 main st boston MA</p>
+        </div>
+        <div class="box ">
+            <i class="fa-solid fa-phone fa-3x"></i>
+            <p>(617) 555-6666</p>
+        </div>
+        <div class="box ">
+            <i class="fa-solid fa-envelope fa-3x "></i>
+            <p>BTHHotels@gmail.com</p>
+        </div>
+    </div>
+    </section>
+    <footer id="main-footer">
+        <p>Hotel BT &copy:2019, All Right Reserve</p>
+</footer>
+</body>
+</html>

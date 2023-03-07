@@ -1,0 +1,57 @@
+
+                          about.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripion " content="welcome to the most extraordinary hotel in tel aviv">
+    <meta name="keywords" Contact="hotel,tel aviv,isrel,vection">
+    <link rel="stylesheet" href="css/styel.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Welcome to Hotals HBT</title>
+</head>
+<body>
+    <header >
+        <nav id="navder">
+            <h1 class="logo">HBT</h1>
+            <ul >
+                <li><a  href="index.html">Home</a></li>
+                <li><a  class="cuurent" href="about.html">about</a></li>
+                <li><a href="content.html">content</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <section id="block1" class="bg-light">
+            <div class="info-left">
+            <h1 class="allTital"><span id="titel1"> About</span> Hotels BT</h1>
+           <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorum possimus aliquam laborum, atque quo tempore aut repellat voluptatum eos necessitatibus esse, exercitationem porro nulla, aspernatur reiciendis. Quae et exercitationem quia commodi dolorem voluptatibus autem voluptatum rem eligendi obcaecati explicabo, nisi dolore ab officiis sequi mollitia fugit magnam, vitae ipsa repudiandae assumenda distinctio! Rem rerum autem deleniti quae aspernatur aut facilis doloremque temporibus optio ratione quaerat, eveniet, illum corrupti explicabo.</p>
+        </div>
+        <div class="info-right">
+            <img src="./img/photo-2.jpg"  alt="hotel">
+        </div>
+          <div class="clr"></div> 
+        
+        </section>
+        <section id="block2" class="bg-light">
+            <div class="block2-left">
+            <h1 class="tital2">What Our Guests Say</h1><br>
+            <div class="pepole1">
+                <img src="./img/person-2.jpg"  alt="hotel">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio sint ullam repellat exercitationem atque. Fugiat illum voluptatum non magni minima recusandae doloremque incidunt perferendis corporis, harum similique possimus iure assumenda?</p>
+            </div>
+           
+            <div class="pepole2">
+                <img src="./img/person-1.jpg"  alt="hotel">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis eveniet sequi nesciunt deserunt sint omnis consequatur minima saepe distinctio? Commodi dolorem, ad adipisci inventore impedit qui deleniti fuga enim?</p>
+            </div>
+        </div> 
+        </section>
+        <footer id="main-footer">
+            <p>Hotel BT &copy:2019, All Right Reserve</p>
+    </footer>
+</body>
+</html>
